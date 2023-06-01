@@ -1,3 +1,10 @@
+:root {
+   --primary-text-color:  #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+}
+
+
 .body {
     color: #757575;
     background-color: #F5F5F5;
@@ -10,11 +17,29 @@ ul {
 }
 
 /* site nav */
-.site-nav {
+.site-nav a {
     color:#212121;
 }
-.site-contacts {
+.site-contacts a {
 color:#757575;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #2196F3;
+}
+.site-contacts a:hover,
+.site-contacts a:focus {
+    color: #2196F3;
+}
+.section-title {
+    color: #212121;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+/* Features */
+.Features .title {
+    color: #212121;
 }
 
 /* колір тексту логотипу #000000 */
