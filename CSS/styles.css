@@ -6,40 +6,48 @@
 
 
 .body {
-    color: #757575;
+    color: var(--primary-text-color);
     background-color: #F5F5F5;
 }
 .logo {
     color: #000000;
 }
 ul {
- .list-style: none;   
+ list-style: none;   
 }
 
 /* site nav */
 .site-nav a {
-    color:#212121;
+    color:var(--title-text-color);
 }
 .site-contacts a {
-color:#757575;
+color:var(--primary-text-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 .site-contacts a:hover,
 .site-contacts a:focus {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 .section-title {
-    color: #212121;
+    color:var(--title-text-color);
 }
 .hero-title {
     color: #FFFFFF;
 }
 /* Features */
 .Features .title {
-    color: #212121;
+    color:var(--title-text-color);
+}
+/* button */
+.button {
+color: #FFFFFF;
+background-color: var(--accent-text-color);
+}
+.site-nav .link.current{
+    color: var(--accent-text-color);
 }
 
 /* колір тексту логотипу #000000 */
