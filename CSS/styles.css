@@ -3,18 +3,27 @@
     --title-text-color: #212121;
     --accent-text-color: #2196F3;
 }
-
+ul {
+ list-style: none;   
+}
 
 .body {
     color: var(--primary-text-color);
     background-color: #F5F5F5;
+    font-family: Roboto, sans-serif;
 }
+    h1,
+    h2,
+    h3 {
+     font-family: Roboto, sans-serif;
+    }
+    
+
 .logo {
     color: #000000;
+    font-family: Raleway; cursive;
 }
-ul {
- list-style: none;   
-}
+
 
 /* site nav */
 .site-nav a {
@@ -57,3 +66,14 @@ background-color: var(--accent-text-color);
 /* колір заголовка героя #FFFFFF */
 /* колір фону особливостей #F5F4FA */
 /* колір фону героя  та футера #2F303A */
+
+/* Стилі Портфоліо*/ 
+.site-nav-portfolio li{
+    color: var(--title-text-color);
+    background-color:#F5F4FA;
+}
+.site-nav-portfolio li:hover,
+.site-nav-portfolio li:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-text-color);
+}
