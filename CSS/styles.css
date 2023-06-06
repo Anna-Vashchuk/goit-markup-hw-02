@@ -2,6 +2,7 @@
    --primary-text-color:  #757575;
     --title-text-color: #212121;
     --accent-text-color: #2196F3;
+
 }
 ul {
  list-style: none;   
@@ -10,7 +11,14 @@ ul {
 .body {
     color: var(--primary-text-color);
     background-color: #F5F5F5;
+
+    font-size: 14px;
     font-family: Roboto, sans-serif;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.header {
+    background-color:#FFFFFF;
 }
     h1,
     h2,
@@ -18,19 +26,39 @@ ul {
      font-family: Roboto, sans-serif;
     }
     
-
+/* Студія */
 .logo {
     color: #000000;
-    font-family: Raleway; cursive;
-}
 
+    font-family: Raleway; sans-serif;    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    text-decoration: none;
+    
+
+}
+.logo .accent {
+    color: var(--accent-text-color);
+}
 
 /* site nav */
 .site-nav a {
     color:var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-contacts a {
-color:var(--primary-text-color);
+    color:var(--primary-text-color);
+
+    font-weight: 500;
+       
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -40,25 +68,95 @@ color:var(--primary-text-color);
 .site-contacts a:focus {
     color: var(--accent-text-color);
 }
-.section-title {
-    color:var(--title-text-color);
-}
-.hero-title {
-    color: #FFFFFF;
-}
-/* Features */
-.Features .title {
-    color:var(--title-text-color);
-}
-/* button */
-.button {
-color: #FFFFFF;
-background-color: var(--accent-text-color);
-}
 .site-nav .link.current{
     color: var(--accent-text-color);
 }
 
+/* Герой */
+.hero-title {
+    color: #FFFFFF;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;      
+    letter-spacing: 0.06em;
+    text-align: center;
+    
+}
+/* button */
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-text-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+}
+.pointer {
+        cursor: pointer;
+.hero {
+    background-color:#2F303A;
+}
+
+/* Секція особливостей */
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    
+}
+
+/* Features */
+.Features .title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    line-height: 1.14;
+}
+
+    
+
+/* Наша команда */
+.command-title {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;    
+
+}
+.section-command {
+    color: var(--primary-text-color); 
+    background-color:#F5F4FA;
+
+    font-size: 16px;
+    line-height: 1.19;
+   
+}
+    /*Футер */
+ .footer {
+    color: #FFFFFF;
+    background-color:#2F303A;
+ }   
+ .address a {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;    
+    text-decoration: none;
+
+ }
+    
 /* колір тексту логотипу #000000 */
 /* колір додаткового тексту блакитний #2196F3 */
 /* колір додаткового тексту #212121 */
@@ -67,13 +165,30 @@ background-color: var(--accent-text-color);
 /* колір фону особливостей #F5F4FA */
 /* колір фону героя  та футера #2F303A */
 
-/* Стилі Портфоліо*/ 
-.site-nav-portfolio li{
+/* Портфоліо */
+.site-nav-portfolio button{
     color: var(--title-text-color);
     background-color:#F5F4FA;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
 }
-.site-nav-portfolio li:hover,
-.site-nav-portfolio li:focus {
+.site-nav-portfolio button:hover,
+.site-nav-portfolio button:focus {
     color: #FFFFFF;
     background-color: var(--accent-text-color);
+}
+.portfolio {
+    
+    font-size: 16px;
+    line-height: 1.88;
+}
+.portfolio-title {
+   color: var(--title-text-color: #212121); 
+
+   font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
