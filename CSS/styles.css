@@ -145,12 +145,16 @@ ul {
    
 }
     /*Футер */
- .footer {
+ .footer,
+  .footer .logo,
+  .footer p {
     color: #FFFFFF;
     background-color:#2F303A;
- }   
- .address a {
-    color: rgba(255, 255, 255, 0.6);
+ }
+  
+ .address-links a {
+
+   color: rgba(255, 255, 255, 0.6);
 
     font-weight: 400;
     font-size: 14px;
