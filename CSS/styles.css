@@ -162,6 +162,10 @@ ul {
     text-decoration: none;
 
  }
+ .address-links a:hover,
+ .address-links a:focus {
+     color: var(--accent-text-color);
+ }
     
 /* колір тексту логотипу #000000 */
 /* колір додаткового тексту блакитний #2196F3 */
@@ -179,6 +183,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    cursor: pointer;
 }
 .site-nav-portfolio button:hover,
 .site-nav-portfolio button:focus {
