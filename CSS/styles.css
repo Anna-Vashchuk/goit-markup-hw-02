@@ -1,6 +1,6 @@
 :root {
    --primary-text-color:  #757575;
-    --title-text-color: #212121;
+   --title-text-color: #212121;
     --accent-text-color: #2196F3;
 
 }
@@ -30,7 +30,7 @@ ul {
 .logo {
     color: #000000;
 
-    font-family: Raleway; sans-serif;    
+    font-family: Raleway, sans-serif;   
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -196,7 +196,7 @@ ul {
     line-height: 1.88;
 }
 .portfolio-title {
-   color: var(--title-text-color: #212121); 
+   color: var(--title-text-color); 
 
    font-weight: 700;
     font-size: 18px;
